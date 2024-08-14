@@ -1,10 +1,13 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Sidebar from './components/Sidebar/Sidebar';
-import MainContent from './components/MainContent/MainContent';
+
+
+
 import './App.css';
+import Header from './components/Header/Header';
+import MainContent from './components/MainContent/MainContent';
+import Sidebar from './components/Sidebar/Sidebar';
 
 const App: React.FC = () => {
   return (
