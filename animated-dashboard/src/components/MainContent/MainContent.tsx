@@ -28,8 +28,9 @@ const MainContent: React.FC<{ section?: string }> = ({ section }) => {
             <li>Line chart showing user growth over time</li>
           </ul>
           <br />
-          <img src="https://lh3.googleusercontent.com/proxy/6F5hcEP25YW0jBfhfzNCuCZzViLoPb8d8PF_CwNqJOVnQLYY06QvNKYomAdCE4HdCT0Zt_c3dFemdiegYrIMfwYFacOhGHM4w_R0PuwYU4O3gYOK0ySr_f2U_lgWhL_A-wqm1u4S"  alt="" />
+          
           </div>
+          <img src="https://lh3.googleusercontent.com/proxy/6F5hcEP25YW0jBfhfzNCuCZzViLoPb8d8PF_CwNqJOVnQLYY06QvNKYomAdCE4HdCT0Zt_c3dFemdiegYrIMfwYFacOhGHM4w_R0PuwYU4O3gYOK0ySr_f2U_lgWhL_A-wqm1u4S"  alt="" />
         </section>
       )}
       {section === 'section2' && (
