@@ -8,5 +8,16 @@
   }
   
   h1{
-    margin-left:15%;
+    margin-left:10%;
+    /* margin-top: ; */
+  }
+
+  .toggole{
+    display: flex;
+    margin-top:-31px;
+  }
+
+  .text-center{
+    color: white;
+    padding-left: 7px;
   }

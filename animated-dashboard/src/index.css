@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .sidebar {
+    display: none;
+  }
+
+  /* Hamburger menu button styles */
+  .hamburger-menu {
+    /* Styles for the hamburger menu button */
+  }
+
+  .main-content {
+    margin-left: 0; /* Remove margin for sidebar */
+    padding: 1rem;
+  }
+
+  /* Other adjustments for content sections */
+}
