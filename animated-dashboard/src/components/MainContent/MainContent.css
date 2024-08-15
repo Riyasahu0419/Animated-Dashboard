@@ -1,14 +1,15 @@
 .main-content {
-    margin-left: 250px; /* Width of the sidebar */
+    margin-left: 265px; 
+    
     padding: 2rem;
     background-color: #ecf0f1;
     flex: 1;
     display: flex;
     flex-direction: column;
-  }
+  } 
   
   .content-section {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     padding: 1rem;
     background-color: #ffffff;
     border-radius: 8px;
@@ -23,12 +24,23 @@
   }
   
   .content-section {
-    display: none;
-    /* Add any additional styling you need */
+    display: none;  
   }
   
   .content-section.active {
     display: block;
-    /* Add any additional styling you need for active sections */
   }
+  
+  .section-background {
+    position: relative;
+    height: 100%;
+  }
+  
+  .content-section {
+    position: relative;
+    z-index: 1; /* Ensure content is on top of animation */
+    /* Other styles */
+  }
+  
+
   
