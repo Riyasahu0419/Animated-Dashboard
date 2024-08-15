@@ -4,7 +4,7 @@ import './Header.css';
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <h1>My Dashboard</h1>
+      <h1>Animated Dashboard</h1>
     </header>
   );
 };
