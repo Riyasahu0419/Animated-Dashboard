@@ -14,10 +14,26 @@
 
   .toggole{
     display: flex;
-    margin-top:-31px;
+    margin-top:-35px;
   }
 
-  .text-center{
-    color: white;
-    padding-left: 7px;
+
+.link li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    display: block;
+    padding:0.5rem;
+    border-radius: 4px;
+    margin-left: -80%;
   }
+
+  .link li a:hover {
+    background-color: #1abc9c;
+  }
+
+   ul {
+    list-style: none;
+    padding: 0;
+  }
+

@@ -35,13 +35,13 @@
   overflow-y: auto;
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
   z-index: 99;
-  width: 150px; /* Default width */
-  transition: width 0.3s ease-in-out; /* Smooth transition for width changes */
+  width: 150px; 
+  transition: width 0.3s ease-in-out; 
 }
 
 @media (max-width: 568px) {
   .sidebar {
-    width: 60px; /* Reduced width for smaller screens */
+    width: 60px; 
   }
 
   .sidebar nav ul li a {
